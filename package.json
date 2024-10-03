@@ -1,0 +1,27 @@
+{
+  "name": "invoice-mapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/openai": "latest",
+    "@types/pdf-parse": "^1.1.4",
+    "ai": "^3.4.8",
+    "csv": "^6.3.10",
+    "dotenv": "latest",
+    "pdf-parse": "latest",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^4.5.0"
+  }
+}
